@@ -141,4 +141,4 @@ client.on(Events.MessageCreate, async (message) => {
   }
 });
 
-client.login('YOUR_BOT_TOKEN');
+client.login('token');
