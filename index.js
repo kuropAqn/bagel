@@ -129,8 +129,8 @@ client.on(Events.InteractionCreate, async interaction => {
 
 // メッセージに反応してロール付与（オプション）
 client.on(Events.MessageCreate, async (message) => {
-  const targetChannelId = 'YOUR_CHANNEL_ID';
-  const targetRoleId = 'YOUR_ROLE_ID';
+  const targetChannelId = 'CHANNEL_ID';
+  const targetRoleId = 'ROLE_ID';
 
   if (message.channel.id === targetChannelId) {
     const member = message.member;
